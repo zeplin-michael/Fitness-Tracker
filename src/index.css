@@ -41,3 +41,37 @@ ul,
 ol {
   padding-left: 1rem;
 }
+
+.activity-lists > li {
+  list-style: none;
+  margin: 10px 0px;
+}
+
+button {
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: teal;
+  color: white;
+  font-size: 15px;
+  padding: 1px;
+}
+
+.activities > button:hover {
+  background-color: #ff6f61;
+  color: white;
+}
+
+.activities {
+  display: flex;
+  justify-content: space-between;
+}
+
+.activity-form > label > input {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.activity-form > label > button:hover {
+  background-color: forestgreen;
+  color: black;
+}

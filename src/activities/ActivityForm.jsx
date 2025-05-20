@@ -15,7 +15,7 @@ export default function ActivityForm() {
   return (
     <>
       <h2>Add new activity</h2>
-      <form action={addActivity}>
+      <form action={addActivity} className="activity-form">
         <label>
           Name
           <input type="text" name="name" />
